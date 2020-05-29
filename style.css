@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(19, 19, 34);
+    margin: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.box {
+    width:30%;
+    background-color: blanchedalmond;
+    padding-top:30%;
+    float: left;
+    margin:1.66%;
+    border-radius: 100%;
+    transition: background-color 0.75s;
+    -webkit-transition: background-color 0.75s;
+    -moz-transition: background-color 0.75s;
+}
+#grid {
+    margin: 0 auto;
+    max-width : 60%;
+}
+h1 {
+    color: white;
+    text-align: center;
+    background-color: rgb(11, 162, 250);
+    margin:0;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 2% 0;
+}
+#navi {
+    background : white;
+    text-align: center;
+    height: 10%;
+    color:black;
+}
+.selected {
+    background-color: rgb(11, 162, 255);
+    color:white;
+    background-color:  rgb(11, 162, 255);
+    outline: none;
+}
+#rgb {
+    font-size: 180%;
+}
+button{
+    border: none;
+    background: none;
+    letter-spacing: 10%;
+    height:100%;
+    background-color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: rgb(11, 162, 255);
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.75s;
+    -webkit-transition: all 0.75s;
+    -moz-transition: all 0.75s;
+    outline : none;
+    font-size: medium;
+}
+#message {
+    display: inline-block;
+    width :20%;
+    color: rgb(11, 162, 255);
+    height: 100%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: medium;
+}
+button:hover{
+    background-color:  rgb(11, 162, 255);
+    color:white;
+}
+#grid {
+    margin: 3% auto
+}
